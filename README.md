@@ -57,14 +57,16 @@
 		@property (nonatomic, strong) NSDate *nowDate;//初始化后默认显示当前日期
 		
 		@property (nonatomic, assign) HRDatePickerMode datePickerMode;//日期模式, 具体如下
+	
 		
-	模式|描述
-	---|---
+模式|描述
+---|---
 HRDatePickerModeTime| 时,分,上午或下午`(e.g: 6 | 53 | PM)`
 HRDatePickerModeDate|   年,月,日 `(e.g 11 | 15 | 2007)` 默认模式（default mode）
 HRDatePickerModeDateAndTime| 星期, 年与日日, `(e.g Wed Nov 15 | 6 | 53 | PM)`
 HRDatePickerModeCountDownTimer| 时分`(e.g 1 | 53)`
 				
+	
 		
 		@property (nonatomic, strong) UIColor *datePickerBackGroundColor;//datePicker的背景颜色
 		
