@@ -9,7 +9,7 @@
 - iOS8.0及以上版本
 - Swift 或者 OC
 
-##集成方法
+## 集成方法
 
 ### OC
 - 将 `HRDatePickerWindow` 文件夹拖入工程即可
@@ -18,13 +18,15 @@
 - 将 `HRDatePickerWindow` 文件夹拖入工程
 - 在Swift与OC的桥接文件中使用 `#import "HRDatePickerWindow.h"` 导入头文件
 
-##效果如下图
+
+## 效果如下图
+
 ![图片](https://github.com/heron-newland/DatePicker/blob/master/datePicker.png)
 	
 
 ## 使用方式
 
-###OC
+### OC
 
 - 导入头文件
 - 在需要使用的类里面声明一个强引用属性， 或者声明一个成员变量如下
@@ -42,7 +44,7 @@
 
  		[_datePicker show];
  	
- ## 此日期选择器所有属性和方法如下
+## 此日期选择器所有属性和方法如下
  
 		 @interface HRDatePickerWindow : UIWindow
 		 
@@ -83,7 +85,7 @@ HRDatePickerModeCountDownTimer| 时分`(e.g 1 | 53)`
 
 ## 完整代码如下
 
-###OC
+### OC
 
 		@interface DateSample ()
 		//强引用
@@ -122,7 +124,7 @@ HRDatePickerModeCountDownTimer| 时分`(e.g 1 | 53)`
 		@end
 
 
-###Swift
+### Swift
 
 	//懒加载
     private var datePick: HRDatePickerWindow = {
@@ -143,6 +145,6 @@ HRDatePickerModeCountDownTimer| 时分`(e.g 1 | 53)`
     
  
     
-##   联系方式
+## 联系方式
 
 邮箱: objc_china@163.com
