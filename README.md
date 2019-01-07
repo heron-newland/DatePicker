@@ -46,20 +46,20 @@
  	
 ## 此日期选择器所有属性和方法如下
  
-		 @interface HRDatePickerWindow : UIWindow
-		 
-		@property (nonatomic, strong) UIDatePicker *datePicker;
-		
-		@property (nonatomic, strong) NSDate *maximumDate;//最大日期
-		
-		@property (nonatomic, strong) NSDate *minimumDate;//最小日期
-		
-		@property (nonatomic, strong) NSDate *nowDate;//初始化后默认显示当前日期
-		
-		@property (nonatomic, assign) HRDatePickerMode datePickerMode;//日期模式, 具体如下
+> @interface HRDatePickerWindow : UIWindow
+ 
+> @property (nonatomic, strong) UIDatePicker *datePicker;
+	
+> @property (nonatomic, strong) NSDate *maximumDate;//最大日期
+	
+> @property (nonatomic, strong) NSDate *minimumDate;//最小日期
+	
+> @property (nonatomic, strong) NSDate *nowDate;//初始化后默认显示当前日期
+	
+> @property (nonatomic, assign) HRDatePickerMode datePickerMode;//日期模式, 具体如下
 	
 		
-模式|描述
+>  模式|描述
 ---|---
 HRDatePickerModeTime| 时,分,上午或下午`(e.g: 6 | 53 | PM)`
 HRDatePickerModeDate|   年,月,日 `(e.g 11 | 15 | 2007)` 默认模式（default mode）
@@ -68,21 +68,21 @@ HRDatePickerModeCountDownTimer| 时分`(e.g 1 | 53)`
 				
 	
 		
-		@property (nonatomic, strong) UIColor *datePickerBackGroundColor;//datePicker的背景颜色
-		
-		@property (nonatomic, strong) UIColor *operationBackGroundColor;//datePicker上方view的背景颜色
-		
-		@property (nonatomic, strong) UIColor *maskColor;//遮罩层的颜色
-			
-		@property (nonatomic, assign)CGFloat datePickerHeight;//整个view的高度,如果初始化设置frame那么只有高度起作用
-		
-		@property (nonatomic, copy) commit commitBlock;//选中某个日期的回调
-		
-		@property (nonatomic, copy) cancel cancelBlock;//取消的回调
-		
-		@property (nonatomic, assign)BOOL showTodayButton;//是否显示回到今日的按钮
-		
-		-(void)show;//在指定界面展示日期选择器
+> @property (nonatomic, strong) UIColor *datePickerBackGroundColor;//datePicker的背景颜色
+	
+> @property (nonatomic, strong) UIColor *operationBackGroundColor;//datePicker上方view的背景颜色
+	
+> @property (nonatomic, strong) UIColor *maskColor;//遮罩层的颜色
+	
+> @property (nonatomic, assign)CGFloat datePickerHeight;//整个view的高度,如果初始化设置frame那么只有高度起作用
+	
+> @property (nonatomic, copy) commit commitBlock;//选中某个日期的回调
+	
+> @property (nonatomic, copy) cancel cancelBlock;//取消的回调
+	
+> @property (nonatomic, assign)BOOL showTodayButton;//是否显示回到今日的按钮
+	
+> -(void)show;//在指定界面展示日期选择器
  		
 
 ## 完整代码如下
