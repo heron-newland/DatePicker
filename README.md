@@ -1,5 +1,7 @@
 # DatePicker
 
+![](https://github.com/heron-newland/DatePicker/blob/master/Icon.png)
+
 一款简单的iOS系统风格的日期选择器, 使用windwo作为容器,能自定义外观, 使用block回调事件,简单易用.
 
 ## 支持环境
@@ -17,7 +19,7 @@
 - 在Swift与OC的桥接文件中使用 `#import "HRDatePickerWindow.h"` 导入头文件
 
 ##效果如下图
-![图片]({{site.url}}/assets/images/DatePicker/datePicker.png)
+![图片](https://github.com/heron-newland/DatePicker/blob/master/datePicker.png)
 	
 
 ## 使用方式
